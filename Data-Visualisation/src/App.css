@@ -1,0 +1,27 @@
+.main {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.chartContainer {
+  height: 300px;
+}
